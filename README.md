@@ -1,13 +1,13 @@
-Online Book Ordering System
+# End-to-End Online Book Ordering System
 
-Project Overview
+### Project Overview
 An individual educational IT Business Analysis project focused on designing an online book ordering system. The project aims to replace the traditional order management process, which relies on phone calls, WhatsApp messages, and manual Excel records, with a structured online ordering system.
 
-Business Problem
+### Business Problem
 The existing order management process relies on manual communication channels and Excel records. This approach can lead to inefficient order processing, difficulties in tracking orders, and limited visibility into order information.
 The proposed system aims to centralize the ordering process and improve order management through a structured online platform.
 
-Project Objectives
+### Project Objectives
 - Define the main functionality of an online book ordering system.
 - Analyze business requirements and stakeholder needs.
 - Model business processes using BPMN.
@@ -18,7 +18,7 @@ Project Objectives
 - Document functional and non-functional requirements.
 - Define acceptance criteria and identify potential edge cases.
 
-Project Scope
+### Project Scope
 The project covers the following functionalities:
 - Displaying book categories and sections on the home page.
 - Viewing detailed information about individual books.
@@ -26,7 +26,7 @@ The project covers the following functionalities:
 - Tracking order status and delivery details.
 - Cancelling orders and displaying refund information.
 
-Requirements Analysis
+### Requirements Analysis
 The project documentation includes:
 - Project Overview
 - Business Problem
@@ -39,14 +39,14 @@ The project documentation includes:
 - Edge Cases
 - Acceptance Criteria
 
-Process Modeling (BPMN)
+### Process Modeling (BPMN)
 Business processes are modeled using BPMN diagrams to illustrate the flow of activities, system interactions, decision points, and alternative process paths.
 The process modeling documentation includes individual BPMN diagrams in PNG format and a consolidated PDF document.
 
-UML Modeling
+### UML Modeling
 A UML Use Case Diagram illustrates the interactions between system actors and the main system functionalities.
 
-Database Design
+### Database Design
 The database structure was designed using dbdiagram.io and includes the following entities:
 - Books
 - Customers
@@ -56,7 +56,7 @@ The database structure was designed using dbdiagram.io and includes the followin
 - OrderItems
 The database model defines primary keys, foreign keys, and relationships between entities.
 
-API Design & Documentation
+### API Design & Documentation
 REST API endpoints were defined and documented for the main system operations.
 The API documentation includes HTTP methods, endpoint descriptions, path parameters, header parameters, JSON request and response bodies, schemas, and error handling.
 
@@ -69,10 +69,10 @@ The API documentation includes HTTP methods, endpoint descriptions, path paramet
 | GET | `/orders/{order_id}/tracking` | Retrieves order tracking information. |
 | DELETE | `/orders/{order_id}` | Cancels an existing order. |
 
-JSON Examples
+### JSON Examples
 Separate JSON examples demonstrate request and response data structures for the documented API endpoints.
 
-Tools & Technologies
+### Tools & Technologies
 - Lucidchart – BPMN business process modeling.
 - draw.io (diagrams.net) – UML Use Case Diagram design.
 - dbdiagram.io – Database modeling and ERD visualization.
@@ -81,9 +81,15 @@ Tools & Technologies
 - JSON – Request and response data structures.
 - Microsoft Word – Project and API documentation.
 
-Project Status
+### Project Status
 Educational individual project developed as part of IT Business Analysis coursework.
-
-The project covers business analysis, requirements engineering, process modeling, UML modeling, database design, and API documentation.
-
+The project covers business analysis, requirements engineering, BPMN and UML modeling, database design, and API documentation.
 It is a documentation and system design project, not a deployed application or a live API.
+
+## Repository Structure
+- `01_Project_Documentation`: Project overview, business problem, and functional requirements.
+- `02_Process_Modeling`: BPMN diagrams for browsing, ordering, tracking, and canceling books.
+- `03_UML_Modeling`: System Use Case diagram.
+- `04_Database_Design`: Entity-Relationship Diagram (ERD).
+- `05_API_Documentation`: REST API endpoints and specifications.
+- `06_JSON_Examples`: Sample request and response payloads.
